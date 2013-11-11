@@ -34,6 +34,13 @@
 
     ctx.fillStyle = '#000000';
     ctx.fillRect(0, 0, canvas.width(), canvas.height());
+    /*
+      var img = new Image();
+      img.onload = function() {
+        ctx.drawImage(img, 0, 0, 1920/2, 1080/2);
+      }
+      img.src = "assets/img/overlay.jpg";
+    */
 
     ctx.strokeStyle = 'rgba(255,255,255,0.6)';
     ctx.lineWidth = 1;
