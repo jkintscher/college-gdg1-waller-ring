@@ -24,5 +24,5 @@ Dir.glob(File.join('src/', '*')).each do |file|
 end
 
 File.open('coords.json', 'w') do |f|
-  f.write(coords.to_json)
+  f.write(coords.to_json.to_s.gsub(/\},\{/, "},\n{"))
 end
