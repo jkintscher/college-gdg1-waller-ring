@@ -1,5 +1,3 @@
-// requestAnim shim layer by Paul Irish
-
 (function() {
 
   var Particle = function(coords) {
