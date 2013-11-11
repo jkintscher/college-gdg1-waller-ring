@@ -32,7 +32,7 @@
       elements.push(new Particle(window.particles[i]));
     }
 
-    ctx.fillStyle = '#000000';
+    ctx.fillStyle = '#222222';
     ctx.fillRect(0, 0, canvas.width(), canvas.height());
     /*
       var img = new Image();
